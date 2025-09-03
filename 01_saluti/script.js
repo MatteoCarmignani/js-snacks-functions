@@ -15,5 +15,4 @@ function saluto() {
 
 console.log(saluto());
 
-
 //Risultato atteso se si passa 'Mario': // ciao Mario
