@@ -5,6 +5,19 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
+function onlyIniziali() {
+
+    for (let i = 0; i < names.length; i++) {
+        const iniziali = names[i][0];
+        console.log(iniziali);    
+        
+    }
+    
+}
+
+console.log(onlyIniziali());
+
+
 
 // Invoca la funzione qui e stampa il risultato in console
 
